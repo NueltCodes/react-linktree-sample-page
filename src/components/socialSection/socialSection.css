@@ -1,0 +1,112 @@
+.socialSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px 0px;
+  gap: 64px;
+  width: 1216px;
+  height: 72px;
+  padding: 0px 32px;
+  background: #ffffff;
+}
+
+.socialContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 32px;
+  gap: 32px;
+  width: 1216px;
+  height: 24px;
+}
+
+.SocialContent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+
+  width: 1152px;
+  height: 24px;
+}
+
+.SocialIcons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 24px;
+  width: 1152px;
+  height: 24px;
+}
+
+.slack {
+  width: 24px;
+  height: 24px;
+  background-size: cover;
+  background-image: url("../../img/slack.svg");
+}
+
+.github {
+  width: 24px;
+  height: 24px;
+  background-image: url("../../img/github.svg");
+  background-size: cover;
+}
+
+@media screen and (max-width: 400px) {
+  .socialSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px 0px;
+    gap: 64px;
+    width: 375px;
+    height: 72px;
+    background: #ffffff;
+  }
+  .socialContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 16px;
+    gap: 32px;
+    width: 375px;
+    height: 24px;
+  }
+
+  .SocialContent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    width: 343px;
+    height: 24px;
+  }
+
+  .SocialIcons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+    width: 343px;
+    height: 24px;
+  }
+
+  .slack {
+    width: 24px;
+    height: 24px;
+    background-size: cover;
+    background-image: url("../../img/slack.svg");
+  }
+
+  .github {
+    width: 24px;
+    height: 24px;
+    background-image: url("../../img/github.svg");
+    background-size: cover;
+  }
+}

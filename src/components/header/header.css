@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.Header {
+  position: relative;
+}
+
+.profileSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 24px;
+  isolation: isolate;
+  position: relative;
+  width: 1152px;
+  height: 142px;
+}
+
+.profile-pics {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  width: 88px;
+  height: 88px;
+  border-radius: 275px;
+  background: url("../../img/NFT\ Monkey.png");
+  background-size: cover;
+}
+
+.linkText {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+  width: 1152px;
+  height: 30px;
+}
+
+.text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #101828;
+}
+
+.ShareContainer {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  right: 208px;
+  top: -20px;
+  background: #ffffff;
+  border: 1px dashed #d0d5dd;
+  border-radius: 20px;
+}
+
+.shareIcon {
+  height: 40px;
+  width: 40px;
+  left: 110px;
+  top: 16px;
+  border-radius: 20px;
+  background-size: cover;
+  background: url("../../img/shareIcon.svg");
+}
+
+@media screen and (max-width: 400px) {
+  .Header {
+    position: relative;
+  }
+
+  .profileSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+    isolation: isolate;
+
+    width: 343px;
+    height: 140px;
+  }
+
+  /* width: 343px;
+  height: 140px; */
+
+  .profile-pics {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    width: 88px;
+    height: 88px;
+    border-radius: 275px;
+    background: url("../../img/NFT\ Monkey.png");
+    background-size: cover;
+  }
+
+  .linkText {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    width: 343px;
+    height: 28px;
+  }
+
+  .text {
+    width: 343px;
+    height: 28px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #101828;
+  }
+
+  .ShareContainer {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    right: 0px;
+    top: -20px;
+
+    /* Base/White */
+
+    background: #ffffff;
+    /* Gray/300 */
+
+    border: 1px dashed #d0d5dd;
+    border-radius: 20px;
+  }
+
+  .shareIcon {
+    border: 1.66667px;
+    background-size: cover;
+    background: url("../../img/mobileShareIcon.svg");
+  }
+}

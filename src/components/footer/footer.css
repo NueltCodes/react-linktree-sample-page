@@ -1,0 +1,167 @@
+.footer {
+  position: relative;
+}
+.footerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 64px;
+  width: 1440px;
+  height: 160px;
+  justify-content: center;
+  background: #ffffff;
+}
+
+.fContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px 32px;
+  gap: 32px;
+  width: 1280px;
+  height: 64px;
+}
+
+.footerContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 0px 0px;
+  gap: 32px;
+  position: relative;
+  width: 1216px;
+  height: 64px;
+  border-top: 1px solid #eaecf0;
+}
+.logoBody {
+  width: 187.59px;
+  height: 32px;
+  position: relative;
+}
+
+.logo {
+  position: absolute;
+  left: 0.72%;
+  right: 0.64%;
+  top: 21.82%;
+  bottom: 0.88%;
+  background: url("../../img/zuriLogo.svg");
+  background-size: cover;
+}
+
+.redVector {
+  width: 7.87px;
+  height: 7.75px;
+  border-radius: 50%;
+  position: absolute;
+  top: 19.13px;
+  left: 52.26px;
+  background-image: url("../../img/redVector.svg");
+  background-size: cover;
+}
+
+.footerText {
+  width: 832.28px;
+  height: 24px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.i4gLogo {
+  width: 132.13px;
+  height: 32px;
+  position: absolute;
+  top: 32px;
+  left: 1083.87px;
+  background-image: url("../../img/i4g.svg");
+  background-size: cover;
+}
+
+@media screen and (max-width: 400px) {
+  .footer {
+    position: relative;
+  }
+  .footerContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px 0px;
+    gap: 64px;
+
+    width: 375px;
+    height: 196px;
+    background: #ffffff;
+  }
+
+  .fContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px 0px;
+    gap: 64px;
+    width: 375px;
+    height: 196px;
+  }
+
+  .footerContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+
+    width: 343px;
+    height: 132px;
+
+    /* Gray/200 */
+
+    border-top: 1px solid #eaecf0;
+  }
+  .logoBody {
+    width: 140.69px;
+    height: 24px;
+    position: relative;
+  }
+
+  .logo {
+    background: url("../../img/zuriLogo.svg");
+    background-size: cover;
+  }
+
+  .redVector {
+    position: absolute;
+    left: 27.86%;
+    right: 67.94%;
+    top: 59.79%;
+    bottom: 15.98%;
+
+    background-image: url("../../img/redVector.svg");
+    background-size: cover;
+  }
+
+  .footerText {
+    width: 213px;
+    height: 20px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #667085;
+  }
+
+  .i4gLogo {
+    position: absolute;
+    left: 0%;
+    top: 90%;
+    width: 99.1px;
+    height: 24px;
+    background-image: url("../../img/i4g.svg");
+    background-size: cover;
+  }
+}
