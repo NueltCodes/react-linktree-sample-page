@@ -7,7 +7,12 @@ const Header = () => {
       <div className="profileSection">
         <div className="profile-pics"></div>
         <div className="linkText">
-          <a href="https://twitter.com/NueltCodes" className="text">
+          <a
+            href="https://twitter.com/NueltCodes"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text"
+          >
             Olaniran Emmanuel
           </a>
           {/* https://slackcommunity.com/u/mpf2ch/#/about */}
