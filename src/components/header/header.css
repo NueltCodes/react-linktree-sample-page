@@ -87,10 +87,7 @@
     width: 343px;
     height: 140px;
   }
-
-  /* width: 343px;
-  height: 140px; */
-
+  
   .profile-pics {
     display: flex;
     flex-direction: column;
@@ -133,12 +130,7 @@
     height: 40px;
     right: 0px;
     top: -20px;
-
-    /* Base/White */
-
     background: #ffffff;
-    /* Gray/300 */
-
     border: 1px dashed #d0d5dd;
     border-radius: 20px;
   }
