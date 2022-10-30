@@ -114,13 +114,9 @@
     justify-content: center;
     align-items: flex-start;
     gap: 16px;
-
     width: 343px;
     height: 132px;
-
-    /* Gray/200 */
-
-    border-top: 1px solid #eaecf0;
+border-top: 1px solid #eaecf0;
   }
   .logoBody {
     width: 140.69px;
@@ -139,7 +135,6 @@
     right: 67.94%;
     top: 59.79%;
     bottom: 15.98%;
-
     background-image: url("../../img/redVector.svg");
     background-size: cover;
   }
